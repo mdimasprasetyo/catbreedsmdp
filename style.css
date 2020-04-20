@@ -180,9 +180,25 @@ body {
     display: block;
     width: 100%;
     max-width: calc(100% - 480px);
-    height: 126px;
+    height: 195px;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+    white-space: nowrap;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+  body section.slideshow .detail .detail-item .article {
+    position: absolute;
+    display: block;
+    color: grey;
+    width: 100%;
+    max-width: calc(100% - 480px);
+    height: 25px;
+    top: 52%;
+    left: 52%;
     transform: translate(-50%, -50%);
     overflow: visible;
     white-space: nowrap;
